@@ -1,6 +1,6 @@
 = bootstrap_sortable_rails
 
-This gem makes available the link{https://github.com/drvic10k/bootstrap-sortable} to the rails asset pipeline. See the git repository for more information on how to use it.
+This gem makes available the https://github.com/drvic10k/bootstrap-sortable library to the rails asset pipeline. See the git repository for more information on how to use it.
 
 Add to your application.js
   //= require bootstrap-sortable
