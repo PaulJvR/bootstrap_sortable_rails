@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bootstrap_sortable_rails.gemspec",
     "lib/bootstrap_sortable_rails.rb",
     "lib/bootstrap_sortable_rails/engine.rb",
     "vendor/assets/javascripts/bootstrap-sortable.js",
