@@ -1,0 +1,1 @@
+require 'bootstrap_sortable_rails/engine.rb'
