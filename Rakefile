@@ -17,30 +17,14 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bootstrap_sortable_rails"
   gem.homepage = "http://github.com/PaulJvR/bootstrap_sortable_rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Bootstrap-Sortable js gem"
+  gem.description = "This gem adds the bootstrap-sortable.js and bootstrap-sortable.css to the asset pipeline"
   gem.email = " paul@searleconsulting.co.za"
   gem.authors = ["Paul Janse van Rensburg"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
 
-require 'rake/testtask'
-Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-end
-
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
-end
-
-task :default => :test
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
