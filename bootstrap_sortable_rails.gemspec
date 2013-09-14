@@ -28,8 +28,8 @@ Gem::Specification.new do |s|
     "bootstrap_sortable_rails.gemspec",
     "lib/bootstrap_sortable_rails.rb",
     "lib/bootstrap_sortable_rails/engine.rb",
-    "vendor/assets/javascripts/bootstrap-sortable.js",
-    "vendor/assets/stylesheets/bootstrap-sortable.css"
+    "vendor/assets/javascript/bootstrap-sortable.js",
+    "vendor/assets/stylesheet/bootstrap-sortable.css"
   ]
   s.homepage = "http://github.com/PaulJvR/bootstrap_sortable_rails"
   s.licenses = ["MIT"]
